@@ -39,7 +39,7 @@ section {
     font-size: 5vh;
     user-select: none;
     min-width: 300px;
-    text-shadow: 2px 2px 8px rgb(255, 140, 0);
+    padding: 1%;
 }
 
 .about-section {  
@@ -161,3 +161,22 @@ section {
  .gallery img:not(hover) {
     filter: blur(5px) grayscale(70%);
  } 
+
+ .contact-section {
+    background-image: url("src/bg2.jpg");
+    background-size: cover;   
+    display: flex;
+    justify-content: right;
+}
+
+.contact-container {
+    margin-top: 4%;
+    color: #fff;
+    margin-left: 30%;
+    margin-bottom: 20%;
+    text-decoration: none;
+    font-size: 5vh;
+    user-select: none;
+    padding: 1%;
+    text-align: center;
+}
