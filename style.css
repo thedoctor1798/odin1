@@ -111,16 +111,26 @@ section {
 .gallery-container {
     width: 90%;
     padding: 2vh;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
     padding-top: 5%;
-    background-color: rgb(244, 191, 126);
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: 4vh;
+    color: #9daebe;
+    text-shadow: 1px 1px 2px #919191;
+    background-color: rgb(255, 229, 198);
     display: flex;
     flex-wrap: wrap;
     flex-basis: auto;
     align-items: center;
     justify-content: center;
     gap: 10%;
+    user-select: none;
 
+}
+
+.gallery-container h1 {
+    padding-bottom: 3%;
 }
 
 .gallery {
@@ -137,8 +147,9 @@ section {
  .gallery img{
     max-width: 20%;
     margin: 10px;
+    border-radius: 7%;
     box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
-    transition: 300ms ease-in-out;
+    transition: 200ms ease-in-out;
  }
 
  .gallery img:hover {
