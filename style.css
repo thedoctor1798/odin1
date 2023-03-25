@@ -185,13 +185,32 @@ section {
   border: 0px;
   border-radius: 10px;
   background-color: #121212;
-  color: antiquewhite;
+  color: #fff;
   font-weight: bolder;
   font-size: large;
   transition: 100ms ease-in-out;
 }
 
 .contact-button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 2px 2px 8px #000;
+}
+
+.date-button {
+  margin-left: 20px;
+  margin-top: 50px;
+  padding: 2%;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #d3bfb4;
+  color: #000;
+  font-weight: bolder;
+  font-size: large;
+  transition: 100ms ease-in-out;
+}
+
+.date-button:hover {
   transform: scale(1.05);
   cursor: pointer;
   box-shadow: 2px 2px 8px #000;
