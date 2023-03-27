@@ -1,8 +1,5 @@
-@font-face {
-  font-family: "valami";
-  src: url("");
-  font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -10,6 +7,7 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Coda', cursive;
 }
 
 * {
@@ -24,26 +22,33 @@ section {
   align-items: center;
 }
 
+h1 {
+  font-family: 'Bebas Neue', cursive;
+}
+
 .header-section {
-  background-image: url("src/bg3.jpg");
+  background-image: url("src/bg1.jpg");
   background-size: cover;
   display: flex;
-  justify-content: left;
+  justify-content: center;
 
 }
 
 .header-container {
-  color: #121212;
-  margin-left: 12%;
+  color: rgb(237, 237, 237);
   text-decoration: none;
-  font-size: 5vh;
+  font-size: 8vh;
   user-select: none;
   min-width: 300px;
   padding: 1%;
+  text-align: center;
+  background-color: #00000089;
+  backdrop-filter: blur(7px);
+  border-radius: 15px;
 }
 
 .about-section {
-  background-color: #000;
+  background-color: #121212;
   min-height: 100vh;
 }
 
@@ -75,18 +80,14 @@ section {
   box-shadow: 2px 2px 12px black;
 }
 
-#about-box1:hover {
-  box-shadow: 8px 8px 15px black;
-}
-
 #about-box1 h3 {
   font-style: italic;
+  font-family: 'Bebas Neue', cursive;
 }
 
 #about-box1 h1 {
   margin-top: 1%;
   color: #121212;
-  font-weight: 800;
 }
 
 #about-box2 img {
@@ -96,7 +97,7 @@ section {
 }
 
 .gallery-section {
-  background-color: #000;
+  background-color: #2e1b13;
   min-height: 100vh;
   max-height: max-content;
 }
@@ -111,7 +112,7 @@ section {
   font-size: 4vh;
   color: antiquewhite;
   text-shadow: 1px 1px 2px #919191;
-  background-color: #121212;
+  background-color: #483324;
   display: flex;
   flex-wrap: wrap;
   flex-basis: auto;
