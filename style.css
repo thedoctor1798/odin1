@@ -184,6 +184,7 @@ section {
   user-select: none;
   padding: 1%;
   text-align: center;
+  position: relative;
 }
 
 .contact-button {
@@ -223,13 +224,17 @@ section {
   box-shadow: 2px 2px 8px #000;
 }
 
-/*form a uiverse-ről*/
 
-/*
 .contact-form {
-    background-color: #f2f2f2;
-    padding: 20px;
+    display: none;
+    background-color: #f2f2f23f;
+    padding: 70px;
     border-radius: 10px;
+    position: absolute;
+    z-index: 10000;
+    left: 50%;
+    box-shadow: 2px 2px 8px #000;
+    backdrop-filter: blur(10px);
   }
   
   .contact-form label {
@@ -239,7 +244,7 @@ section {
   .contact-form .heading {
     font-size: 24px;
     color: black;
-    margin-bottom: 12px;
+    margin-bottom: 50px;
     font-weight: bold;
     display: block;
   }
@@ -256,7 +261,7 @@ section {
   textarea {
     resize: none;
     height: 80px;
-    width: 200px;
+    width: 300px;
   }
   
   .contact-form input, .contact-form textarea {
@@ -281,10 +286,26 @@ section {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 30px;
   }
   
   .contact-form button[type="submit"]:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
   }
-  */
+
+  .contact-form .cancel {
+    background-color: rgb(113, 38, 38);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .contact-form button[type="button"]:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
