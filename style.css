@@ -130,10 +130,17 @@ section {
   width: 90%;
   color: antiquewhite;
   display: flex;
-  justify-content: left;
+  flex-wrap: wrap;
+  gap: 2%;
+  max-height: 50vh;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
-  overflow-x: scroll;
+  overflow-y: scroll;
+  padding-bottom:5%;
+  padding-top: 2.5%;
+  box-shadow: inset 0px -10px 10px -10px #000,
+              inset  0  10px 10px -10px #000;
 }
 
 .gallery::-webkit-scrollbar {
